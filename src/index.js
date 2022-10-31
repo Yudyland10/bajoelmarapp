@@ -44,7 +44,7 @@ const fondo = (
 
 const hechosSobreAnimales = (
   <div>
-    <h1>{titulo === "" ? "Click Sobre un Animal" : titulo}</h1>
+    <h1>{titulo === "" ? "Quieres conocer el mar, haz click sobre un animal" : titulo}</h1>
     {mostrarFondo && fondo}
     <p id='hecho'></p>
     <div className="animales">
